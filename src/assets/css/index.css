@@ -5,5 +5,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
+}
+
+.container-custom {
   margin: 0 120px;
 }
