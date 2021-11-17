@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Rubik", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+}
+body {
+  margin: 0 50px;
+}
