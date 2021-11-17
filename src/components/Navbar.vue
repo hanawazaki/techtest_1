@@ -11,7 +11,7 @@
         <a href="#"> About </a>
       </li>
       <li class="header__item">
-        <a href="#"> Promotions </a>
+        <a href="#"> Promotions </a><span class="header__hot"> Hot </span>
       </li>
       <li class="header__item">
         <a href="#"> Blogs </a>
@@ -51,20 +51,32 @@ export default {};
 .header__item {
   margin: 10px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: rgba(117, 117, 117, 1);
+}
+
+.header__hot {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  color: white;
+  padding: 3px 9px;
+  border-radius: 8px;
+  background-color: rgba(231, 70, 45, 1);
+  transform: translate(-18px, -15px);
 }
 
 .header__authitem {
   color: #000;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header__authitem--button {
   background-color: rgba(139, 172, 62, 1);
   color: white;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 </style>

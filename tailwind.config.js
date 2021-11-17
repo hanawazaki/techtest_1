@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: 'rgba(139, 172, 62, 1)',
-        light1: 'rgba(117, 117, 117, 1)',
+        greenFresh: '#8BAC3E',
+        light1: '#757575',
+        lightGray2: '#F2F2F2',
+        redHot: '#E7462D',
       },
       fontFamily: {
         sans: ["'Rubik', sans-serif"],
