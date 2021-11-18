@@ -1,20 +1,24 @@
 <script>
-import Navbar from "./components/Navbar.vue";
-import Hero from "./components/Hero.vue";
+import NavHero from "./components/NavHero.vue";
 import Category from "./components/Category.vue";
+import Trending from "./components/Trending.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
-    Navbar,
-    Hero,
+    NavHero,
     Category,
+    Trending,
+    Footer,
   },
 };
 </script>
 
 <template>
-  <Navbar />
+  <NavHero />
   <Category />
+  <Trending />
+  <Footer />
 </template>
 
 <style>

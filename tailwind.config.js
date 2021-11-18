@@ -9,6 +9,12 @@ module.exports = {
         lightGray2: '#F2F2F2',
         redHot: '#E7462D',
         dark: '#333',
+        pizzaColor: '#E6F3F5',
+        kebabColor: '#EAEEFA',
+        salmonColor: '#F9EEF3',
+        cupcakeColor: '#F0FEEB',
+        doughnutColor: '#F3F7D9',
+
       },
       fontFamily: {
         sans: ["'Rubik', sans-serif"],

@@ -1,10 +1,10 @@
 <template>
   <section class="category container-custom">
     <h3 class="category__title text-left">
-      Browser Our Category <br />
+      Browse Our Category <br />
       <span class="text-greenFresh"> Receipt </span>
     </h3>
-    <div class="flex category__cards mb-16">
+    <div class="flex category__cards mb-11">
       <div class="category__cards-item category__cards--cupcake">
         <img src="../assets/img/icon-cupcake.png" alt="" />
         <h6>Cupcake</h6>
