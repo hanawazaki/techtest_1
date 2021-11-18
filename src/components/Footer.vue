@@ -113,7 +113,7 @@
         <p>Home</p>
       </div>
       <div class="footer__menulist">
-        <img src="../assets/img/menu.png" alt="menu" />
+        <img src="../assets/img/menu.png " alt="menu" />
         <p>Promotions</p>
       </div>
       <div class="footer__menulist">
@@ -230,5 +230,7 @@ p {
 
 .footer__menulist img {
   width: 39px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
