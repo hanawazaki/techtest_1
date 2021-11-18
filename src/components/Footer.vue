@@ -1,6 +1,6 @@
 <template>
   <section class="footer container-custom">
-    <div class="footer__nav flex">
+    <div class="footer__nav hidden md:flex">
       <div class="w-2/5 footer__address">
         <img
           src="../assets/img/logo.png"
@@ -104,8 +104,22 @@
         </div>
       </div>
     </div>
-    <div class="footer__text text-center">
+    <div class="footer__text text-center hidden md:block">
       <p>&copy; 2021 Elemes id. All rights reserved</p>
+    </div>
+    <div class="footer__menu flex justify-between md:hidden">
+      <div class="footer__menulist">
+        <img src="../assets/img/menu.png" alt="menu" />
+        <p>Home</p>
+      </div>
+      <div class="footer__menulist">
+        <img src="../assets/img/menu.png" alt="menu" />
+        <p>Promotions</p>
+      </div>
+      <div class="footer__menulist">
+        <img src="../assets/img/menu.png" alt="menu" />
+        <p>Others</p>
+      </div>
     </div>
   </section>
 </template>
@@ -116,7 +130,7 @@ export default {};
 
 <style>
 .footer {
-  padding-top: 250px;
+  padding-top: 25px;
 }
 
 .footer__nav {
@@ -205,5 +219,16 @@ p {
   color: #757575;
   margin-top: 48px;
   margin-bottom: 32px;
+}
+
+.footer__menulist {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.footer__menulist img {
+  width: 39px;
 }
 </style>

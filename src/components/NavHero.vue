@@ -1,10 +1,10 @@
 <template>
   <div class="background">
     <header class="flex justify-between header container-custom">
-      <div class="header__logo">
+      <div class="header__logo md:block">
         <img src="../assets/img/logo.png" alt="" />
       </div>
-      <ul class="header__nav flex items-center">
+      <ul class="header__nav items-center hidden md:flex">
         <li class="header__item">
           <a href="#">Home</a>
         </li>
@@ -22,7 +22,7 @@
         </li>
       </ul>
       <ul class="header__auth flex items-center">
-        <li class="header__authitem mx-3 text-black">
+        <li class="header__authitem mx-3 text-black hidden md:block">
           <a href="#">Masuk</a>
         </li>
         <li
@@ -38,12 +38,15 @@
         </li>
       </ul>
     </header>
-    <section class="hero flex container-custom">
-      <div class="hero__textcontent w-1/2">
+    <section class="hero md:flex container-custom">
+      <div class="hero__textcontent md:w-1/2">
         <h1 class="hero__title text-greenFresh font-medium text-left">
           Good Food Us <br />
           Good Mood
         </h1>
+        <div class="md:hidden">
+          <img src="../assets/img/img-hero2.png" alt="" />
+        </div>
         <p class="hero__desc my-8 text-left text-light1">
           I would think that conserving our natural resources <br />should be a
           conservative position: Not to waste food, and <br />not to throw away
@@ -60,7 +63,7 @@
           >
         </div>
       </div>
-      <div class="hero__image w-1/2">
+      <div class="hero__image hidden md:w-1/2 md:block">
         <div>
           <img src="../assets/img/img-hero.png" alt="" />
         </div>
@@ -73,7 +76,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style >
 .background {
   background-image: url("../assets/img/bg-hero.png");
   background-position: center;
@@ -87,7 +90,7 @@ header {
 }
 
 .header__logo {
-  width: 207px;
+  width: 150px;
 }
 
 .header__item {
@@ -123,11 +126,11 @@ header {
 }
 
 .hero__textcontent {
-  margin-top: 113.5px;
+  margin-top: 64px;
 }
 
 .hero__title {
-  font-size: 64px;
+  font-size: 48px;
   line-height: 64px;
 }
 

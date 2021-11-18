@@ -8,5 +8,75 @@ body {
 }
 
 .container-custom {
-  margin: 0 100px;
+  margin: 0 33px;
+}
+
+@screen md {
+  .container-custom {
+    margin: 0 100px;
+  }
+
+  .header__logo {
+    width: 207px;
+  }
+
+  .header__authitem--button {
+    background-color: #8bac3e;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .hero__textcontent {
+    margin-top: 113.5px;
+  }
+
+  .category {
+    padding-top: 80px;
+  }
+
+  .category__title {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 42.78px;
+    line-height: 50px;
+    color: #333;
+  }
+
+  .category__cards-item:hover {
+    height: 185px;
+    background-image: url("../assets/img/bg-hero.png");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 230px 185px;
+  }
+
+  .trending__title {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 42.78px;
+    line-height: 50px;
+    color: #333;
+  }
+
+  .trending__item {
+    border-radius: 17px;
+    width: 270.5px;
+    height: 306px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0px 11px 39px rgba(0, 0, 0, 0.07);
+  }
+
+  .footer {
+    padding-top: 250px;
+  }
 }

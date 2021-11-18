@@ -4,8 +4,8 @@
       Browse Our Trending <br />
       <span class="text-greenFresh"> Receipt </span>
     </h3>
-    <div class="trending__list flex flex-wrap justify-center">
-      <div class="trending__item bg-pizzaColor">
+    <div class="trending__list md:flex md:flex-wrap md:justify-center">
+      <div class="trending__item w-auto bg-pizzaColor">
         <div class="trending__item-content">
           <img src="../assets/img/pizza1.png" alt="pizza" />
           <h4>Pizza Paperoni</h4>
@@ -133,7 +133,7 @@
         </div>
       </div>
     </div>
-    <div class="trending__button text-center mt-16">
+    <div class="trending__button text-center mt-16 hidden md:block">
       <a href="#" class="rounded-full bg-greenFresh py-4 px-6 text-white"
         >ALL Receipt</a
       >
@@ -147,16 +147,16 @@ export default {};
 
 <style>
 .trending__title {
-  font-size: 38px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 42.78px;
-  line-height: 50px;
+  line-height: 30px;
   color: #333;
 }
 
 .trending__item {
   border-radius: 17px;
-  width: 270.5px;
+  width: auto;
   height: 306px;
   font-weight: 500;
   cursor: pointer;

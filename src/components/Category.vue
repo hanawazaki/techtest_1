@@ -31,7 +31,7 @@
         <p>11 items</p>
       </div>
     </div>
-    <div class="category__navs mb-16 flex justify-end">
+    <div class="category__navs mb-16 md:flex md:justify-end hidden">
       <a href="#" class="category__navs--prev flex items-center mx-5">
         <img src="../assets/img/prev.png" class="w-8" alt="" />
         <span class="ml-2">Prev</span>
@@ -48,12 +48,15 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
+.category {
+  padding-top: 80px;
+}
 .category__title {
-  font-size: 38px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 42.78px;
-  line-height: 50px;
+  line-height: 30px;
   color: #333;
 }
 
@@ -67,15 +70,6 @@ export default {};
   text-align: center;
   transition: 0.3s;
   margin-bottom: 10px;
-}
-
-.category__cards-item:hover {
-  height: 185px;
-  background-image: url("../assets/img/bg-hero.png");
-  background-position: center;
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-size: 230px 185px;
 }
 
 .category__cards-item img {
