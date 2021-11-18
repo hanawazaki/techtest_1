@@ -4,7 +4,7 @@
       Browse Our Trending <br />
       <span class="text-greenFresh"> Receipt </span>
     </h3>
-    <div class="trending__list flex flex-wrap">
+    <div class="trending__list flex flex-wrap justify-center">
       <div class="trending__item bg-pizzaColor">
         <div class="trending__item-content">
           <img src="../assets/img/pizza1.png" alt="pizza" />
